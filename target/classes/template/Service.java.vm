@@ -1,0 +1,51 @@
+package ${package}.${moduleName}.service;
+
+import java.util.Collection;
+import java.io.Serializable;
+
+#if($linkTable)
+import com.toman.common.sqlinject.service.CustomService;
+#end
+#if(!$linkTable)
+import com.toman.common.sqlinject.service.TransferService;
+import ${package}.${moduleName}.domain.vo.${className}Vo;
+#end
+import ${mainPath}.common.utils.PageUtils;
+import ${package}.${moduleName}.entity.${className}Entity;
+import ${package}.${moduleName}.domain.form.${className}Form;
+import ${package}.${moduleName}.domain.query.${className}Query;
+import ${package}.${moduleName}.domain.vo.${className}Vo;
+
+import com.toman.modules.sys.entity.SysUserEntity;
+
+import java.util.List;
+import java.util.Map;
+
+/**
+ * ${comments}
+ *
+ * @author ${author}
+ * @email ${email}
+ * @date ${datetime}
+ */
+#if($linkTable)
+public interface ${className}Service extends CustomService<${className}Entity> {
+#end
+#if(!$linkTable)
+public interface ${className}Service extends TransferService<${className}Entity,${className}Vo> {
+#end
+
+    #if(!$linkTable)
+        PageUtils queryPage(${className}Query query);
+
+        ${className}Vo queryVoById(Long id);
+
+        ${className}Entity saveWithForm(${className}Form form,SysUserEntity user);
+
+        void updateWithForm(${className}Form form,SysUserEntity user);
+
+        boolean logicDel(Collection<? extends Serializable> idList,SysUserEntity user);
+    #end
+
+}
+

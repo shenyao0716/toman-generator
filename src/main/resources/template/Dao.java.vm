@@ -1,0 +1,29 @@
+package ${package}.${moduleName}.dao;
+
+import ${package}.${moduleName}.entity.${className}Entity;
+#if($linkTable)
+import com.toman.common.sqlinject.CustomMapper;
+#end
+#if(!$linkTable)
+import com.toman.common.sqlinject.TransferDtoMapper;
+import ${package}.${moduleName}.domain.vo.${className}Vo;
+#end
+import org.apache.ibatis.annotations.Mapper;
+
+/**
+ * ${comments}
+ *
+ * @author ${author}
+ * @email ${email}
+ * @date ${datetime}
+ */
+@Mapper
+#if($linkTable)
+public interface ${className}Dao extends CustomMapper<${className}Entity> {
+#end
+#if(!$linkTable)
+public interface ${className}Dao extends TransferDtoMapper<${className}Entity,${className}Vo> {
+#end
+
+
+}

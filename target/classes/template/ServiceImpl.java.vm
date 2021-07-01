@@ -1,0 +1,96 @@
+package ${package}.${moduleName}.service.impl;
+
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+import java.util.Map;
+import java.util.Collection;
+import java.io.Serializable;
+import java.util.Date;
+
+import com.baomidou.mybatisplus.mapper.EntityWrapper;
+import com.baomidou.mybatisplus.plugins.Page;
+
+#if($linkTable)
+import com.toman.common.sqlinject.service.impl.CustomServiceImpl;
+#end
+#if(!$linkTable)
+import com.toman.common.sqlinject.service.impl.CustomServiceImpl;
+#end
+
+import com.toman.modules.sys.entity.SysUserEntity;
+import com.toman.common.utils.MergeUtils;
+
+import ${mainPath}.common.utils.PageUtils;
+import ${mainPath}.common.utils.Query;
+
+import ${package}.${moduleName}.dao.${className}Dao;
+import ${package}.${moduleName}.entity.${className}Entity;
+import ${package}.${moduleName}.service.${className}Service;
+
+import ${package}.${moduleName}.domain.form.${className}Form;
+import ${package}.${moduleName}.domain.query.${className}Query;
+import ${package}.${moduleName}.domain.vo.${className}Vo;
+
+import java.util.List;
+import org.springframework.util.CollectionUtils;
+
+
+@Service("${classname}Service")
+#if($linkTable)
+public class ${className}ServiceImpl extends CustomServiceImpl<${className}Dao, ${className}Entity> implements ${className}Service {
+#end
+#if(!$linkTable)
+public class ${className}ServiceImpl extends TransferServiceImpl<${className}Dao,${className}Vo, ${className}Entity> implements ${className}Service {
+#end
+
+#if(!$linkTable)
+        @Override
+        public PageUtils queryPage(${className}Query query){
+            Page<${className}Entity> page =this.selectPage(query.getMybatisPlusPage(), new EntityWrapper<${className}Entity>());
+            List<${className}Vo> voList = MergeUtils.convertList(page.getRecords(), ${className}Vo.class);
+            PageUtils pageUtils = new PageUtils(page);
+            pageUtils.setList(voList);
+            return pageUtils;
+        }
+
+        @Override
+        public  ${className}Vo queryVoById(Long id){
+            return this.selectById2Dto(id);
+        }
+
+        @Transactional(rollbackFor = Exception.class)
+        @Override
+        public ${className}Entity saveWithForm(${className}Form form,SysUserEntity user){
+            ${className}Entity ${classname}=MergeUtils.copyByJson(form,${className}Entity.class);
+            ${classname}.setCreateUserId(user.getUserId());
+            Date date = new Date();
+            ${classname}.setCreateTime(date);
+            ${classname}.setUpdateUserId(user.getUserId());
+            ${classname}.setUpdateTime(date);
+            this.insert(${classname});
+            return ${classname};
+        }
+
+    @Transactional(rollbackFor = Exception.class)
+    @Override
+    public void updateWithForm(${className}Form form,SysUserEntity user){
+        ${className}Entity ${classname}=MergeUtils.copyByJson(form,${className}Entity.class);
+        ${classname}.setUpdateUserId(user.getUserId());
+        Date date = new Date();
+        ${classname}.setUpdateTime(date);
+        this.updateById(${classname});
+    }
+
+    @Transactional(rollbackFor = Exception.class)
+    @Override
+    public boolean logicDel(Collection<? extends Serializable> idList,SysUserEntity user){
+        ${className}Entity entity=new ${className}Entity ();
+        entity.setDeleteFlag(-1);
+        entity.setUpdateUserId(user.getUserId());
+        Date date = new Date();
+        entity.setUpdateTime(date);
+        return this.update(entity,new EntityWrapper<${className}Entity>().in("${pk.attrname}",idList));
+    }
+
+#end
+}

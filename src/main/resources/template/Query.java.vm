@@ -1,0 +1,34 @@
+package ${package}.${moduleName}.domain.query;
+
+import com.toman.common.query.TablePageQueryParam;
+import lombok.Data;
+import  ${package}.${moduleName}.entity.${className}Entity ;
+
+
+import com.toman.common.utils.MergeUtils;
+
+#if(${hasBigDecimal})
+import java.math.BigDecimal;
+#end
+import java.io.Serializable;
+import java.util.Date;
+
+/**
+ * ${comments}
+ *
+ * @author ${author}
+ * @email ${email}
+ * @date ${datetime}
+ */
+@Data
+public class ${className}Query extends TablePageQueryParam {
+	private static final long serialVersionUID = 1L;
+
+#foreach ($column in $columns)
+    /**
+	 * $column.comments
+	 */
+    private $column.attrType $column.attrname;
+#end
+
+}

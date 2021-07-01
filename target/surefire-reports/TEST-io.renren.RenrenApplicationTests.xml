@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.renren.RenrenApplicationTests" time="0.011" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="E:\jdk1.8.0_91\jre\bin"/>
+    <property name="java.vm.version" value="25.91-b15"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\ä»£ç \toman-generator"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\ä»£ç \toman-generator"/>
+    <property name="java.runtime.version" value="1.8.0_91-b15"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="E:\jdk1.8.0_91\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\JoHN\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="D:\è½¯ä»¶\idea\IntelliJ IDEA 2020.1.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="D:\è½¯ä»¶\idea\IntelliJ IDEA 2020.1.2\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GB18030"/>
+    <property name="java.library.path" value="E:\jdk1.8.0_91\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;E:\jdk1.8.0_91\bin;E:\jdk1.8.0_91\jre\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\Autodesk\Backburner\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;E:\jdk1.8.0_91\bin;D:\maven\apache-maven-3.8.1\bin;D:\è½¯ä»¶\node\;C:\Users\JoHN\AppData\Local\Microsoft\WindowsApps;C:\Users\JoHN\AppData\Local\gitkraken\bin;C:\Users\JoHN\AppData\Roaming\npm;D:\è½¯ä»¶\vscode\Microsoft VS Code\bin;."/>
+    <property name="maven.conf" value="D:\è½¯ä»¶\idea\IntelliJ IDEA 2020.1.2\plugins\maven\lib\maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\JoHN"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="JoHN"/>
+    <property name="java.class.path" value="D:\è½¯ä»¶\idea\IntelliJ IDEA 2020.1.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;D:\è½¯ä»¶\idea\IntelliJ IDEA 2020.1.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license;D:\è½¯ä»¶\idea\IntelliJ IDEA 2020.1.2\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="E:\jdk1.8.0_91\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version2020.1.2 install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="idea.version2020.1.2" value="true"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_91"/>
+    <property name="java.ext.dirs" value="E:\jdk1.8.0_91\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="E:\jdk1.8.0_91\jre\lib\resources.jar;E:\jdk1.8.0_91\jre\lib\rt.jar;E:\jdk1.8.0_91\jre\lib\sunrsasign.jar;E:\jdk1.8.0_91\jre\lib\jsse.jar;E:\jdk1.8.0_91\jre\lib\jce.jar;E:\jdk1.8.0_91\jre\lib\charsets.jar;E:\jdk1.8.0_91\jre\lib\jfr.jar;E:\jdk1.8.0_91\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\è½¯ä»¶\idea\IntelliJ IDEA 2020.1.2\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="initializationError" classname="io.renren.RenrenApplicationTests" time="0.011">
+    <error message="Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @SpringBootTest(classes=...) with your test" type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @SpringBootTest(classes=...) with your test
+	at org.springframework.util.Assert.state(Assert.java:70)
+	at org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses(SpringBootTestContextBootstrapper.java:202)
+	at org.springframework.boot.test.context.SpringBootTestContextBootstrapper.processMergedContextConfiguration(SpringBootTestContextBootstrapper.java:137)
+	at org.springframework.test.context.support.AbstractTestContextBootstrapper.buildMergedContextConfiguration(AbstractTestContextBootstrapper.java:409)
+	at org.springframework.test.context.support.AbstractTestContextBootstrapper.buildDefaultMergedContextConfiguration(AbstractTestContextBootstrapper.java:323)
+	at org.springframework.test.context.support.AbstractTestContextBootstrapper.buildMergedContextConfiguration(AbstractTestContextBootstrapper.java:277)
+	at org.springframework.test.context.support.AbstractTestContextBootstrapper.buildTestContext(AbstractTestContextBootstrapper.java:112)
+	at org.springframework.boot.test.context.SpringBootTestContextBootstrapper.buildTestContext(SpringBootTestContextBootstrapper.java:82)
+	at org.springframework.test.context.TestContextManager.<init>(TestContextManager.java:120)
+	at org.springframework.test.context.TestContextManager.<init>(TestContextManager.java:105)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTestContextManager(SpringJUnit4ClassRunner.java:152)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.<init>(SpringJUnit4ClassRunner.java:143)
+	at org.springframework.test.context.junit4.SpringRunner.<init>(SpringRunner.java:49)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.junit.internal.builders.AnnotatedBuilder.buildRunner(AnnotatedBuilder.java:104)
+	at org.junit.internal.builders.AnnotatedBuilder.runnerForClass(AnnotatedBuilder.java:86)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:26)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.requests.ClassRequest.getRunner(ClassRequest.java:33)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]></error>
+    <system-out><![CDATA[15:33:01.964 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class io.renren.RenrenApplicationTests]
+15:33:01.970 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+15:33:01.977 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+15:33:01.989 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [io.renren.RenrenApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+15:33:01.999 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [io.renren.RenrenApplicationTests], using SpringBootContextLoader
+15:33:02.003 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [io.renren.RenrenApplicationTests]: class path resource [io/renren/RenrenApplicationTests-context.xml] does not exist
+15:33:02.004 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [io.renren.RenrenApplicationTests]: class path resource [io/renren/RenrenApplicationTestsContext.groovy] does not exist
+15:33:02.004 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [io.renren.RenrenApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+15:33:02.005 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [io.renren.RenrenApplicationTests]: RenrenApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:33:02.030 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [io.renren.RenrenApplicationTests]
+15:33:02.036 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+15:33:02.037 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+15:33:02.037 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+15:33:02.044 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [io/renren/] to resources [URL [file:/D:/%e4%bb%a3%e7%a0%81/toman-generator/target/test-classes/io/renren/]]
+15:33:02.045 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [D:\´úÂë\toman-generator\target\test-classes\io\renren]
+15:33:02.045 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [D:\´úÂë\toman-generator\target\test-classes\io\renren] for files matching pattern [D:/´úÂë/toman-generator/target/test-classes/io/renren/*.class]
+15:33:02.047 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:io/renren/*.class] to resources [file [D:\´úÂë\toman-generator\target\test-classes\io\renren\RenrenApplicationTests.class]]
+15:33:02.060 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [io/] to resources [URL [file:/D:/%e4%bb%a3%e7%a0%81/toman-generator/target/test-classes/io/], URL [file:/D:/%e4%bb%a3%e7%a0%81/toman-generator/target/classes/io/]]
+15:33:02.061 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [D:\´úÂë\toman-generator\target\test-classes\io]
+15:33:02.061 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [D:\´úÂë\toman-generator\target\test-classes\io] for files matching pattern [D:/´úÂë/toman-generator/target/test-classes/io/*.class]
+15:33:02.062 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [D:\´úÂë\toman-generator\target\classes\io]
+15:33:02.062 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [D:\´úÂë\toman-generator\target\classes\io] for files matching pattern [D:/´úÂë/toman-generator/target/classes/io/*.class]
+15:33:02.062 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:io/*.class] to resources []
+15:33:02.063 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class io.toman.TomanCodeApplicationTests]
+15:33:02.063 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+15:33:02.064 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+15:33:02.065 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [io.toman.TomanCodeApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+15:33:02.065 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [io.toman.TomanCodeApplicationTests], using SpringBootContextLoader
+15:33:02.066 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [io.toman.TomanCodeApplicationTests]: class path resource [io/toman/TomanCodeApplicationTests-context.xml] does not exist
+15:33:02.066 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [io.toman.TomanCodeApplicationTests]: class path resource [io/toman/TomanCodeApplicationTestsContext.groovy] does not exist
+15:33:02.066 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [io.toman.TomanCodeApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+15:33:02.067 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [io.toman.TomanCodeApplicationTests]: TomanCodeApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:33:02.074 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [io.toman.TomanCodeApplicationTests]
+15:33:02.074 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+15:33:02.075 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+15:33:02.075 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+15:33:02.075 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [io/toman/] to resources [URL [file:/D:/%e4%bb%a3%e7%a0%81/toman-generator/target/test-classes/io/toman/], URL [file:/D:/%e4%bb%a3%e7%a0%81/toman-generator/target/classes/io/toman/]]
+15:33:02.075 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [D:\´úÂë\toman-generator\target\test-classes\io\toman]
+15:33:02.076 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [D:\´úÂë\toman-generator\target\test-classes\io\toman] for files matching pattern [D:/´úÂë/toman-generator/target/test-classes/io/toman/*.class]
+15:33:02.076 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [D:\´úÂë\toman-generator\target\classes\io\toman]
+15:33:02.076 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [D:\´úÂë\toman-generator\target\classes\io\toman] for files matching pattern [D:/´úÂë/toman-generator/target/classes/io/toman/*.class]
+15:33:02.078 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:io/toman/*.class] to resources [file [D:\´úÂë\toman-generator\target\test-classes\io\toman\TomanCodeApplicationTests.class], file [D:\´úÂë\toman-generator\target\classes\io\toman\TomanCodeApplication.class]]
+15:33:02.116 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\´úÂë\toman-generator\target\classes\io\toman\TomanCodeApplication.class]
+15:33:02.117 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration io.toman.TomanCodeApplication for test class io.toman.TomanCodeApplicationTests
+15:33:02.130 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [io.toman.TomanCodeApplicationTests]: using defaults.
+15:33:02.133 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+15:33:02.150 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3c0a50da, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@646be2c3, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@797badd3, org.springframework.test.context.support.DirtiesContextTestExecutionListener@77be656f, org.springframework.test.context.transaction.TransactionalTestExecutionListener@19dc67c2, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@221af3c0, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@62bd765, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@23a5fd2, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@78a2da20, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@dd3b207, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@551bdc27, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@58fdd99]
+15:33:02.154 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [io.toman.TomanCodeApplicationTests]
+15:33:02.155 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [io.toman.TomanCodeApplicationTests]
+15:33:02.157 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class io.renren.RenrenApplicationTests]
+15:33:02.157 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+15:33:02.157 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+15:33:02.158 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [io.renren.RenrenApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+15:33:02.158 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [io.renren.RenrenApplicationTests], using SpringBootContextLoader
+15:33:02.159 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [io.renren.RenrenApplicationTests]: class path resource [io/renren/RenrenApplicationTests-context.xml] does not exist
+15:33:02.159 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [io.renren.RenrenApplicationTests]: class path resource [io/renren/RenrenApplicationTestsContext.groovy] does not exist
+15:33:02.159 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [io.renren.RenrenApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+15:33:02.160 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [io.renren.RenrenApplicationTests]: RenrenApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:33:02.166 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [io.renren.RenrenApplicationTests]
+15:33:02.166 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+15:33:02.167 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+15:33:02.167 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+15:33:02.169 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [io/renren/] to resources [URL [file:/D:/%e4%bb%a3%e7%a0%81/toman-generator/target/test-classes/io/renren/]]
+15:33:02.169 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [D:\´úÂë\toman-generator\target\test-classes\io\renren]
+15:33:02.170 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [D:\´úÂë\toman-generator\target\test-classes\io\renren] for files matching pattern [D:/´úÂë/toman-generator/target/test-classes/io/renren/*.class]
+15:33:02.170 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:io/renren/*.class] to resources [file [D:\´úÂë\toman-generator\target\test-classes\io\renren\RenrenApplicationTests.class]]
+15:33:02.171 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [io/] to resources [URL [file:/D:/%e4%bb%a3%e7%a0%81/toman-generator/target/test-classes/io/], URL [file:/D:/%e4%bb%a3%e7%a0%81/toman-generator/target/classes/io/]]
+15:33:02.172 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [D:\´úÂë\toman-generator\target\test-classes\io]
+15:33:02.173 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [D:\´úÂë\toman-generator\target\test-classes\io] for files matching pattern [D:/´úÂë/toman-generator/target/test-classes/io/*.class]
+15:33:02.174 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [D:\´úÂë\toman-generator\target\classes\io]
+15:33:02.174 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [D:\´úÂë\toman-generator\target\classes\io] for files matching pattern [D:/´úÂë/toman-generator/target/classes/io/*.class]
+15:33:02.174 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:io/*.class] to resources []
+]]></system-out>
+  </testcase>
+</testsuite>
